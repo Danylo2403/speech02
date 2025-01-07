@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <title>Голосовой помощник</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Example title</h1>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <h1>Голосовой помощник</h1>
+    <button id="start-btn">Начать слушать</button>
+    <button id="stop-btn">Остановить речь</button>
+    <p id="output">Нажмите на кнопку и говорите...</p>
+    <div id="info-container"></div>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

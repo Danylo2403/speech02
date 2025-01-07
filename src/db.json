@@ -1,0 +1,14 @@
+[
+  { "question": "привет", "action": "greeting" },
+  { "question": "как тебя зовут", "action": "name" },
+  { "question": "погода", "action": "weather" },
+  { "question": "сколько время", "action": "time" },
+  { "question": "напомни", "action": "reminder" },
+  { "question": "новости", "action": "news" },
+  { "question": "расскажи анекдот", "action": "joke" },
+  { "question": "расскажи что-нибудь интересное", "action": "fact" },
+  { "question": "сколько стоит доллар", "action": "currency" },
+  { "question": "поставь таймер", "action": "timer" },
+  { "question": "включи свет", "action": "smart_home" },
+  { "question": "игра угадай число", "action": "game" }
+]
